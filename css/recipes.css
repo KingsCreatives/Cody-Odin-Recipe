@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 253, 253);
+    height: 100vh;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3{
+    text-align: center;
+}
+
+main{
+    border: 5px solid rebeccapurple;
+    width: min(100% - 2rem, 800px);
+    margin-inline: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.top-items ul{
+    display: flex;
+}
+
+.top-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: royalblue;
+    font-size: 20px;
+}
+
+.blue{
+    color: royalblue;
+}
+
+.top-items ul{
+    gap: 20px; 
+    color: royalblue;
+}
+
+.ingredients ul{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.preparation h3:first-child,
+.ingredients h3,
+.description h3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+}
+
+.steps,
+.ingredients
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.step p{
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+    background: rgba(73, 52, 192, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer ul{
+    
+    display: flex;
+    gap: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
